@@ -214,3 +214,7 @@ li a {
     object-fit: cover; /* Scales the image to fit the circular frame */
     border: 3px solid #6c757d; /* Optional: Add a border for styling */
 }
+
+#footer {
+    background-color: #8E2DE2 !important;
+}
