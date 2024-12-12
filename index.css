@@ -1,0 +1,216 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+
+#nav-bar {
+	background-color: #8E2DE2;
+	color: #FFFFFF !important;
+	font-weight: 700;
+}
+
+
+#navbar-brand {
+	color: #FFFF00 !important;
+}
+
+.nav-item a{
+	color: #ffffff !important;
+	transition: 0.5s;
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+	color: #12343b !important;
+}
+
+li a {
+	color: #F2D2AE !important;
+}
+
+#home{
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./images/background.jpg");
+	width: 100%;
+	height: 100vh;
+	background-repeat:no-repeat ;
+	background-size: cover;
+    background-position: center;
+}
+
+#introduction {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#categories-section {
+    background-color: #f8f9fa;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#categories-section h2 {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Featured Guides Section */
+#featured {
+    background-color: #ffffff;
+    padding: 2rem 0;
+}
+
+#featured h2 {
+    font-weight: bold;
+    color: #343a40;
+}
+
+#featured .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#featured .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+#featured .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#featured .card-title {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#featured .card-text {
+    color: #6c757d;
+}
+
+#featured .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+#featured .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Resources Section */
+#resources {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#resources h2 {
+    font-weight: bold;
+    color: #343a40;
+}
+
+#resources .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#resources .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+#resources .card-title {
+    color: #007bff;
+    font-weight: bold;
+}
+
+#resources .card-text {
+    color: #6c757d;
+}
+
+/* Card Styling */
+.card {
+    display: flex;
+    flex-direction: column; /* Ensures consistent layout inside the card */
+    justify-content: space-between; /* Spreads content evenly, keeping the button at the bottom */
+    height: 100%; /* Ensures all cards in a row are the same height */
+}
+
+/* Card Body */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1; /* Ensures card-body stretches to fill space */
+}
+
+/* Adjust Text Overflow */
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limits text to 3 lines */
+    -webkit-box-orient: vertical;
+    color: #6c757d;
+}
+
+#logo-footer {
+    width: 400px;
+    height: 400px; /* Set height equal to width for a perfect circle */
+    border-radius: 50%; /* Makes the element circular */
+    overflow: hidden; /* Ensures the content stays within the circle */
+    object-fit: cover; /* Scales the image to fit the circular frame */
+    border: 3px solid #6c757d; /* Optional: Add a border for styling */
+}
